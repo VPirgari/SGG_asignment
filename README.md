@@ -50,12 +50,12 @@ Test cases for Login functionality :
 -------------------------------------------------------------------------------------------------------------------
 
 Framework desciption : 
--'package.json' - no big changes in scripts
--'cypress.config.js' - some changes for the configuration of cypress
--utilities package with utils.js - for reusable functions in the frameworks
--support/pages - Navigation.js for navigation fucntions in the project
+1. 'package.json' - no big changes in scripts
+2. 'cypress.config.js' - some changes for the configuration of cypress
+3. utilities package with utils.js - for reusable functions in the frameworks
+4. support/pages - Navigation.js for navigation fucntions in the project
                - Login.js : where POM is implemented. Started with creating a Base Class and extending it to other classes to inherit elements and functions out of it.
                All the elements used and functions for specific pages are implemented in this file in related classes.
--fixtures - used for user data and Alert messages texts for easy future refractor and easy manage in the testing script, as well to avoid hard-coding.
--e2e/integration- - Tests developed and implemented. Used elements and fuctions from classes created before. Total 9 test cases for Login functionality. 
+5. fixtures - used for user data and Alert messages texts for easy future refractor and easy manage in the testing script, as well to avoid hard-coding.
+6. e2e/integration- - Tests developed and implemented. Used elements and fuctions from classes created before. Total 9 test cases for Login functionality. 
                     Used a Sub Test Suite as I saw it more reliable and cleaner code to have a beforeEach() hook for an user already logged in.
