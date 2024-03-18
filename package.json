@@ -1,0 +1,16 @@
+{
+  "name": "ssg_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:cli" : "cypress open",
+    "cy:headless": "cypress run --headless -b chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.0"
+  }
+}

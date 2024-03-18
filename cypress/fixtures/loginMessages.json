@@ -1,0 +1,7 @@
+{
+    "success" : "You logged into a secure area!",
+    "passwordInvalid" : "Your password is invalid!",
+    "usernameInvalid" : "Your username is invalid!",
+    "loggedIn" : "You're logged in. Please log out before logging in as a different user",
+    "logout" : "You logged out of the secure area!"
+}
